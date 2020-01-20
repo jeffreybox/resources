@@ -1,0 +1,42 @@
+├── README.md          <- Front page of the project. Let everyone 
+│                         know the major points.
+│
+├── models             <- Trained and serialized models, model
+│                         predictions, or model summaries.
+│
+├── notebooks          <- Jupyter notebooks. Use set naming
+│                         E.g. `1.2-rd-data-exploration`.
+│
+├── reports            <- HTML, PDF, and LaTeX.
+│   └── figures        <- Generated figures.
+│
+├── requirements.txt   <- File for reproducing the environment
+│                         `$ pip freeze > requirements.txt`
+├── data
+│   ├── external       <- Third party sources.
+│   ├── interim        <- In-progress intermediate data.
+│   ├── processed      <- The final data sets for modelling.
+│   └── raw            <- The original, immutable data.
+│
+└── src                <- Source code for use in this project.
+    ├── __init__.py    <- Makes src a Python module. 
+    │
+    ├── custom_func.py <- Various custom functions to import.
+    │
+    ├── data           <- Scripts to download or generate data.
+    │   └── make_dataset.py
+    │
+    ├── features       <- Scripts raw data into features for
+    │   │                 modeling.
+    │   └── build_features.py
+    │
+    ├── models         <- Scripts to train models and then use
+    │   │                 trained models to make predictions.
+    │   │                 
+    │   ├── predict_model.py
+    │   └── train_model.py
+    │
+    └── viz            <- Scripts to create visualizations.            
+        └── viz.py
+
+https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
